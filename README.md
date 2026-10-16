@@ -19,6 +19,6 @@ Needs Android Studio (or JDK 17 + Android SDK 35).
 
 The default API is `DEFAULT_BASE_URL` in `app/build.gradle.kts`. It can be changed on the sign-in screen, e.g. `http://192.168.x.x:8000/api` for local testing (debug builds allow plain HTTP).
 
-To publish an update: raise `versionCode` / `versionName`, build with the same signing key, and replace `CRM-Frontend/public/downloads/abl-calls.apk`.
+To publish an update: raise `versionCode` / `versionName`, build with the same signing key, and replace `CRM-Frontend/public/abl-calls.apk`.
 
 Distribute the APK directly or through device management. Google Play restricts apps that read the call log.
